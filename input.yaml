@@ -6,8 +6,9 @@ vault_secret_engine: gke-dev
 vault_k8s_auth_path: gke-dev
 
 services:
-  - name: ct-logic-test
+  - name: ct-sre-demo
     namespace: default
-    action: add
+    action: create
     secrets:
-      - QWER
+      - TOKEN
+      - GITHUB
