@@ -6,8 +6,8 @@ vault_secret_engine: gke-dev
 vault_k8s_auth_path: gke-dev
 
 services:
-  - name: ct-logic-job
+  - name: ct-logic-test
     namespace: default
     action: add
     secrets:
-      - ADSFDASD
+      - QWER
